@@ -26,7 +26,7 @@ const Navbar = () => {
                         className="w-9 h-9 object-contain"
                     />
                     <p className="text-white text-[18px] font-bold cursor-pointer flex">
-                        Oluwaseyi&nbsp;
+                        Oluwaseyi Egunjobi&nbsp;
                         <span className="sm:block hidden">
                             | Software Engineer
                         </span>

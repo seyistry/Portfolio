@@ -16,9 +16,46 @@ const Contact = () => {
 
     const [loading, setLoading] = useState(false);
 
-    const handleChange = (e) => {};
+    const handleChange = (e) => {
+        const { name, value } = e.target;
+        setForm({ ...form, [name]: value });
+    };
 
-    const handleSubmit = (e) => {};
+    const handleSubmit = (e) => {
+        e.preventDefault();
+        setLoading(true);
+
+        emailjs
+            .send(
+                import.meta.env.VITE_SERVICE,
+                import.meta.env.VITE_TEMPLATE,
+                {
+                    from_name: form.name,
+                    to_name: "Oluwaseyi",
+                    from_email: form.email,
+                    to_email: "seyistry@gmail.com",
+                    message: form.message,
+                },
+                import.meta.env.VITE_PUB
+            )
+            .then(
+                () => {
+                    setLoading(false);
+                    alert(
+                        "Thank you, I will get back to you as soon as possible."
+                    );
+                    setForm({
+                        name: "",
+                        email: "",
+                        message: "",
+                    });
+                },
+                (error) => {
+                    setLoading(false);
+                    alert("Something went wrong");
+                }
+            );
+    };
 
     return (
         <div className="xl:mt-12 xl:flex-row flex-col-reverse flex gap-10 overflow-hidden">

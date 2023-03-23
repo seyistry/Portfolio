@@ -4,6 +4,9 @@ import creator from "./creator.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
 import github from "./social/github.png";
+import twitter from "./social/twitter.png";
+import linkedin from "./social/linkedin.png";
+import mail from "./social/mail.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
@@ -31,32 +34,35 @@ import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
 export {
-  logo,
-  backend,
-  creator,
-  mobile,
-  web,
-  github,
-  menu,
-  close,
-  css,
-  docker,
-  figma,
-  git,
-  html,
-  javascript,
-  mongodb,
-  nodejs,
-  reactjs,
-  redux,
-  tailwind,
-  typescript,
-  threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
-  carrent,
-  jobit,
-  tripguide,
+    logo,
+    backend,
+    creator,
+    mobile,
+    web,
+    github,
+    menu,
+    close,
+    css,
+    docker,
+    figma,
+    git,
+    html,
+    javascript,
+    mongodb,
+    nodejs,
+    reactjs,
+    redux,
+    tailwind,
+    typescript,
+    threejs,
+    meta,
+    shopify,
+    starbucks,
+    tesla,
+    carrent,
+    jobit,
+    tripguide,
+    twitter,
+    mail,
+    linkedin,
 };

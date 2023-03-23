@@ -23,7 +23,42 @@ import {
     jobit,
     tripguide,
     threejs,
+    twitter,
+    mail,
+    linkedin,
+    github,
 } from "../assets";
+
+export const contactLinks = [
+    {
+        id: "twitter",
+        title: "twitter",
+        link: "https://twitter.com/seyistry",
+        icon: twitter,
+        bgColor: "#ffffff",
+    },
+    {
+        id: "mail",
+        title: "mail",
+        link: "mailto:seyistry@gmail.com",
+        icon: mail,
+        bgColor: "#ffffff",
+    },
+    {
+        id: "linkedin",
+        title: "linkedin",
+        link: "https://www.linkedin.com/in/seyiegunjobi/",
+        icon: linkedin,
+        bgColor: "#0a66c2",
+    },
+    {
+        id: "github",
+        title: "github",
+        link: "https://github.com/seyistry",
+        icon: github,
+        bgColor: "#161b22",
+    },
+];
 
 export const navLinks = [
     {

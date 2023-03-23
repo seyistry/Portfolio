@@ -35,14 +35,14 @@ export const contactLinks = [
         title: "twitter",
         link: "https://twitter.com/seyistry",
         icon: twitter,
-        bgColor: "white-100",
+        bgColor: "#f3f3f3",
     },
     {
         id: "mail",
         title: "mail",
         link: "mailto:seyistry@gmail.com",
         icon: mail,
-        bgColor: "white-100",
+        bgColor: "#f3f3f3",
     },
     {
         id: "linkedin",

@@ -26,7 +26,7 @@ import {
     twitter,
     mail,
     linkedin,
-    github,
+    githubBlack,
 } from "../assets";
 
 export const contactLinks = [
@@ -49,14 +49,14 @@ export const contactLinks = [
         title: "linkedin",
         link: "https://www.linkedin.com/in/seyiegunjobi/",
         icon: linkedin,
-        bgColor: "#0a66c2",
+        bgColor: "#f3f3f3",
     },
     {
         id: "github",
         title: "github",
         link: "https://github.com/seyistry",
-        icon: github,
-        bgColor: "#161b22",
+        icon: githubBlack,
+        bgColor: "#f3f3f3",
     },
 ];
 

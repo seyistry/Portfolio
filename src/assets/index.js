@@ -4,6 +4,7 @@ import creator from "./creator.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
 import github from "./social/github.png";
+import githubBlack from "./social/githubBlack.png";
 import twitter from "./social/twitter.png";
 import linkedin from "./social/linkedin.png";
 import mail from "./social/mail.png";
@@ -65,4 +66,5 @@ export {
     twitter,
     mail,
     linkedin,
+    githubBlack,
 };

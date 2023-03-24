@@ -9,9 +9,9 @@ function Socials() {
         <div className="flex flex-wrap gap-10 justify-center">
             {contactLinks.map((item, index) => (
                 <motion.div
-                    variants={fadeIn("up", "spring", index * 0.5, 0.75)}
-                    key={item.index}
-                    className="flex rounded-full overflow-hidden h-15 w-15 cursor-pointer"
+                    variants={fadeIn("right", "spring", index * 0.5, 0.75)}
+                    key={index}
+                    className={`bg-[${item.bgColor}] flex rounded-full  h-15 w-15 cursor-pointer shadow-xl shadow-[#32fa98] `}
                     style={{ backgroundColor: item.bgColor }}
                 >
                     <a href={item.link} target="_blank">

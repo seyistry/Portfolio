@@ -77,10 +77,11 @@ const Works = () => {
                     variants={fadeIn("", "", 0.1, 1)}
                     className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
                 >
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Doloribus eligendi alias ratione ut sunt consectetur nisi
-                    cumque saepe, deleniti eaque maxime a beatae quae tempore
-                    aspernatur natus doloremque aut. Libero.
+                    I am proud to showcase my skills and experience through a
+                    collection of real-world projects that demonstrate my
+                    expertise in front-end development. Each project is briefly
+                    described and includes links to both the code repository and
+                    a live demo, allowing you to explore my work in detail.
                 </motion.p>
             </div>
             <div className="mt-20 flex flex-wrap gap-7">

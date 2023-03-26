@@ -48,12 +48,11 @@ const About = () => {
                 variants={fadeIn("", "", 0.1, 1)}
                 className="mb-4  text-secondary text-[17px] max-w-3xl leading-[30px]"
             >
-                I work as a Front-End Developer in Nigeria. I'm fascinated by UI
-                effects, animations, and the creation of intuitive, dynamic user
-                experiences. Person who is well-organized, a problem solver, and
-                an independent worker who pays close attention to detail.
-                Manchester United supporter who enjoys outdoor activities and
-                watching TV shows.
+                I specialize in building intuitive user interfaces using React
+                and React Native. I have a deep appreciation for clean,
+                responsive, and accessible design, and I strive to make every
+                website or application I work on both visually stunning and easy
+                to use.
             </motion.p>
             <div className="mt-20 flex flex-wrap gap-10">
                 {services.map((service, index) => (

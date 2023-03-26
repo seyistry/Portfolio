@@ -21,8 +21,13 @@ import mongodb from "./tech/mongodb.png";
 import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
 import redux from "./tech/redux.png";
+import xd from "./tech/xd.png";
+import photoshop from "./tech/photoshop.png";
+import illustrator from "./tech/illustrator.png";
+
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
+import python from "./tech/python.png";
 import threejs from "./tech/threejs.svg";
 
 import meta from "./company/meta.png";
@@ -55,6 +60,7 @@ export {
     redux,
     tailwind,
     typescript,
+    python,
     threejs,
     meta,
     shopify,
@@ -67,4 +73,7 @@ export {
     mail,
     linkedin,
     githubBlack,
+    xd,
+    illustrator,
+    photoshop,
 };
